@@ -1,0 +1,16 @@
+.overlayBackGround {
+  content: '';
+  text-align: bo;
+  bottom: 0;
+  top: 0;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgb(20, 24, 42) 0%,
+    rgb(237, 63, 179) 0%,
+    rgb(52, 62, 105) 0%,
+    rgba(32, 167, 196, 0) 100%
+  );
+
+  transition: all 0.4s ease-in-out;
+}

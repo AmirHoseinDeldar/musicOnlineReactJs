@@ -25,7 +25,7 @@ const Navbar = ({ width, setWidth }) => {
   return (
     <>
       <div
-        className='fixed   w-full py-5 px-14 '
+        className='fixed   w-full py-5 px-14 z-50 '
         style={{ background: '#1b2039' }}
       >
         <nav className='flex justify-between w-full'>

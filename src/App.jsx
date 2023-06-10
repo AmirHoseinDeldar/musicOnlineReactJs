@@ -25,6 +25,7 @@ function App() {
         />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/album' element={Home} />
         </Routes>
       </BrowserRouter>
     </div>
