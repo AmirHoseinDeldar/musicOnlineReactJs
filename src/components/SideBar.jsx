@@ -41,19 +41,9 @@ const SideBar = ({ width, setWidth }) => {
       icon: <MicIcon fontSize='large' />,
     },
     {
-      path: '/product',
+      path: '/category',
       name: 'سبک ها',
       icon: <CategoryIcon fontSize='large' />,
-    },
-    {
-      path: '/upload',
-      name: 'آپلود',
-      icon: <UploadIcon fontSize='large' />,
-    },
-    {
-      path: '/download',
-      name: 'دانلود',
-      icon: <LocationOnIcon fontSize='large' />,
     },
   ];
   return (

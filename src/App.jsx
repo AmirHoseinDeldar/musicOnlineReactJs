@@ -1,14 +1,14 @@
 import { React, useState } from 'react';
 
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import { Home } from './pages';
-import { Navbar, SideBar } from './components';
+import { Album, Home, Singers, CategoryPage } from './pages';
+import { Footer, Navbar, SideBar } from './components';
 function App() {
   const [width, setWidth] = useState();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div>
+    <div style={{ background: '#14182a' }}>
       <BrowserRouter>
         <Navbar
           setWidth={setWidth}
@@ -23,9 +23,12 @@ function App() {
           isOpen={isOpen}
           setIsOpen={setIsOpen}
         />
+
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/album' element={Home} />
+          <Route path='album' element={<Album />} />
+          <Route path='analytics' element={<Singers />} />
+          <Route path='category' element={<CategoryPage />} />
         </Routes>
       </BrowserRouter>
     </div>

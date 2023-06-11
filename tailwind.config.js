@@ -11,6 +11,7 @@ export default {
       // => @media (max-width: 1279px) { ... }
 
       lg: { max: '1023px' },
+      ms: { max: '900px' },
       // => @media (max-width: 1023px) { ... }
       m: { max: '820px' },
       md: { max: '767px' },
